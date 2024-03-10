@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900|Inter:100,200,300,400,500,600,700,800,900');
+
+header {
+    
+    margin: 0;
+    width: 100px;
+   
+   
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    
+}
+
+
+/* CSS for dropdown menu */
+.dropdown-menu {
+    display: none; /* Hide the dropdown menu by default */
+    position: absolute; /* Position dropdown menu absolutely */
+    background-color: #fff; /* Background color for the dropdown menu */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding box shadow */
+    z-index: 1; /* Set z-index to ensure it appears above other elements */
+}
+
+.dropdown-menu ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove padding */
+}
+
+.dropdown-menu ul li {
+    padding: 10px; /* Add padding for each dropdown item */
+}
+
+.dropdown-menu ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set text color */
+}
+
+.dropdown-menu ul li a:hover {
+    background-color: #f0f0f0; /* Background color on hover */
+}
+
+.list-inline-item {
+
+    padding-right: 0%;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.contact-form {
+
+    position: absolute;
+    right: 75px;
+    top: 100px; 
+}
+
+.message-box {
+
+    height: 150px;
+}
+
+#map {
+    position:fixed;
+    bottom: 100px;
+    right: 10px;
+
+}
+
+
+
+/* ----------------------------------------------- Footer */
+
+.social-media {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+li {
+    display: inline-block; 
+}
+
+
+footer p {
+    color: grey;
+    padding-bottom: 0%;
+    font-size: 12px;
+}
+
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 100px;
+    text-align: center;
+    background-color: black;
+    
+  }
